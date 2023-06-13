@@ -30,7 +30,7 @@ jobs:
         run: |
           xcodebuild clean test \
           -workspace ActionStatus.xcworkspace \
-          -scheme ActionStatusUITestsMobile \
+          -scheme UITests \
           -destination 'platform=macOS,variant=Mac Catalyst' \
           -resultBundlePath TestResults \
           -test-iterations 15 \
